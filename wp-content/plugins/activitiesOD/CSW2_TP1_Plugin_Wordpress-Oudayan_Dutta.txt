@@ -1,0 +1,43 @@
+582-N41-MA CRÉATION DE SITES WEB 2 
+Groupe 15612
+Oudayan Dutta
+
+
+TP1 - Plugin Wordpress
+
+
+Adresse webdev du site :    http://e9134268.webdev.cmaisonneuve.qc.ca/wordpress/
+
+
+Utilisateurs :
+- ODutta (Admin)
+- NTesla (Editor)
+- MFaraday (Author)
+- JCMaxwell (Contributor)
+- TEdison (Subscriber)
+
+Les mots de passes sont identiques aux usernames
+
+
+Nom du plugin :	Gestion et inscription d'activités
+
+
+Instructions pour utilisateurs du site :
+
+- La page d’accueil est la page de filtrage et d’affichage des contacts. 
+- Quand on clique sur le bouton "Rechercher", toutes les activités sont affichés selon les paramètres des filtres.
+- Il y a un bouton "S’inscrire" sous chaque description d’activité qui nous permet de s’y inscrire en nous redirigent à la page d’inscription.
+- Lorsqu’un usager est authentifié pour la gestion d’activité, un bouton pour "Ajouter une activité" est affiché au dessus du filtre d’activités qui nous redirige à la page "Ajouter une activité".
+- Lorsqu’un usager est le créateur d’une activité (ou admin), un bouton "Liste des participants" apparaît en dessous du bouton d’inscription à l’activité, qui nous redirige à la page "Participants".
+
+
+Instructions pour administrateurs du site :
+
+- La gestion du plugin se fait par le menu "Plugin Activités", qui se situe dans la barre d’administration à gauche.
+- Pour les permissions des gestion (création) d’activités, cocher les roles auxquels vous voulez donner accès. Note : le rôle "administrator" a toujours la permission.
+- Les valeurs par défaut des formulaires d’inscription et de création d’activité peuvent être définies, mais ne sont pas obligatoires.
+- Pour mettre à jour les permissions et valeurs défaut des formulaires, il faut cliquer le bouton "Sauvegarder les options". 
+- En bas de la page, on peut activer/désactiver les catégories d’activités existantes, ou encore ajouter une nouvelle catégorie d’activité.
+- Pour mettre à jour les catégories d’activités, il faut cliquer le bouton "Sauvegarder les catégories".
+
+NOTE : Le bouton "Sauvegarder les options" ne sauvegardera PAS les catégories d’activités et le bouton "Sauvegarder les catégories" ne sauvegardera PAS les options de permissions d’usager et valeurs par défaut des formulaires.

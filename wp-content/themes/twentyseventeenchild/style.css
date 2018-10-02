@@ -1,0 +1,10 @@
+/*
+Theme name: Twenty Seventeen Italic
+Author: OD1
+Template: twentyseventeen
+*/
+@import url("../twentyseventeen/style.css");
+
+* { font-style:italic !important; }
+
+h1 a { color:rebeccapurple !important; }
